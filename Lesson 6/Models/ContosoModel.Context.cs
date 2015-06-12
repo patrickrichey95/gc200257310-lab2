@@ -16,7 +16,7 @@ namespace Lesson_6.Models
     public partial class comp2007Entities : DbContext
     {
         public comp2007Entities()
-            : base("name=DefaultConnection")
+            : base("name=comp2007Entities")
         {
         }
 
