@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="department.aspx" />
     <Content Include="site.Master" />
     <EntityDeploy Include="Models\ContosoModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="department.aspx.cs">
+      <DependentUpon>department.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="department.aspx.designer.cs">
+      <DependentUpon>department.aspx</DependentUpon>
     </Compile>
     <Compile Include="departments.aspx.cs">
       <DependentUpon>departments.aspx</DependentUpon>
